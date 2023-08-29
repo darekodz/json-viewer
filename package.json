@@ -8,7 +8,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/alenaksu/json-viewer.git"
+        "url": "git+https://github.com/darekodz/json-viewer.git"
     },
     "keywords": [
         "json",

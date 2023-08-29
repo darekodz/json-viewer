@@ -13,10 +13,10 @@
                 ],
                 "useBuiltIns": false,
                 "shippedProposals": true,
-                "modules": false,
+                "modules": true,
                 "bugfixes": true
             }
-        ]
+        ], "@babel/preset-typescript"
     ],
     "plugins": [
         ["@babel/plugin-proposal-class-properties"],

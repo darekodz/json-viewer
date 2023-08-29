@@ -30,7 +30,7 @@ const baseConfig = {
     },
     treeshake: true,
     plugins: [
-        minifyHTML(),
+        // minifyHTML(),
         typescript({
             project: 'tsconfig.json'
         }),

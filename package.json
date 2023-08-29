@@ -6,7 +6,6 @@
     "customElements": "custom-elements.json",
     "source": "src/index.ts",
     "license": "MIT",
-    "type": "module",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/darekodz/json-viewer.git"
@@ -27,7 +26,7 @@
     "scripts": {
         "start": "vite",
         "clean": "rimraf dist",
-        "build": "npm run clean && npm run analyze && rollup -c rollup.config.js",
+        "build": "npm run clean && npm run analyze && rollup -c rollup.config.mjs",
         "docs": "vite build && touch docs/.nojekyll",
         "analyze": "cem analyze --litelement",
         "analyze:watch": "npm run analyze -- --watch",

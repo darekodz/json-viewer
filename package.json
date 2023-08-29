@@ -1,6 +1,6 @@
 {
     "name": "@darekodz/json-viewer",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "main": "dist/json-viewer.js",
     "module": "dist/json-viewer.js",
     "customElements": "custom-elements.json",
